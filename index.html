@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 
 <html class="js cssanimations"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
- 
+	 
 	<title>首页</title>
 	<link rel="icon" type="image/png" href="/r/cms/aigao/default/assets/i/favicon.png">
 	<link rel="apple-touch-icon-precomposed" href="/r/cms/aigao/default/assets/i/app-icon72x72@2x.png">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<meta name="apple-mobile-web-app-title" content="Amaze UI">
 	<link rel="stylesheet" href="assers/amazeui.min.css">
-	<link rel="stylesheet" href="assers/admin.css?v=1.0">
+	<link rel="stylesheet" href="assers/admin.css?v=2.0">
 	<link rel="stylesheet" href="assers/stylesheet.css"><!-- 40华康字体文件 -->
 	<link rel="stylesheet" href="assers/stylesheet1.css"><!-- 41华康字体文件 -->
 	<link rel="stylesheet" href="assers/stylesheet2.css"><!-- 308字体文件 -->
-	<script src="assers/jquery.min.js?v=1.0"></script>
+	<script src="assers/jquery.min.js?v=2.0"></script>
 	<script src="assers/amazeui.min.js"></script>
 	<script src="assers/app.js"></script>
 	<script src="assers/echo.js"></script>
@@ -93,14 +93,14 @@
 			<h2>请输入图形验证码进入网站</h2>
 
 			<div class="verify-box">
-			  <canvas id="captchaCanvas" width="120" height="36"></canvas>
+			  <canvas id="captchaCanvas" width="200" height="60"></canvas>
 			</div>
 			
 			<input type="text" id="verifyInput" placeholder="输入验证码">
 			<button id="verifyBtn">验证</button>
 		</div>
 
-		<div  id="body1">
+		<div   id="body1">
 
 		<header id="header" class="am-topbar am-margin-bottom-0 am-topbar-fixed-top am-hide-sm-only" style="background:#262223;border:none;width:100%;height:90px;border-bottom:1px solid #898989;">
 			<div class="am-u-md-12 am-u-lg-10 am-u-sm-centered" style="height:90px;">
@@ -517,9 +517,6 @@
 
 		<script>
 			$(function(){
- 
-		  
-
 
 let generatedCode = ""; // 存验证码
 
