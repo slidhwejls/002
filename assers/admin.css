@@ -59,9 +59,7 @@ h2 {
   margin-bottom: 16px;
 }
 
-#captchaCanvas {
-  width: 200px !important; 
-  height: 60px !important; 
+#captchaCanvas { 
   border: 2px solid #0099ff;
   border-radius: 10px;
   cursor: pointer;
