@@ -1,7 +1,7 @@
  
 var link = {
-    kyH5   : 'https://ky5066.com',
-    mkH5  : 'https:833mk.vip'
+    kyH5   : 'http://ky5066.com',
+    mkH5  : 'http://833mk.vip'
 }
 
 function clickFun(key) {
