@@ -516,36 +516,7 @@
 
 		<script>
 			$(function(){
-
-
-				
-			const phone = document.querySelector('.phone');
-			const conpute = document.querySelector('.conpute');
-		   
-			function autoSwitch() {
-			  const isMobile = /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent)
-							 || window.innerWidth < 768;  
-			  
-			  if (isMobile) {
-				showPhone();
-			  } else {
-				showPC();
-			  }
-			}
-		  
-			function showPhone() {
-			  phone.classList.add('active');
-			  conpute.classList.remove('active');
-			}
-		  
-			function showPC() {
-			  conpute.classList.add('active');
-			  phone.classList.remove('active');
-			}
-		   
-			autoSwitch();
-		   
-			window.addEventListener('resize', autoSwitch);  
+ 
 		  
 
 
