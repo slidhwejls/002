@@ -49,7 +49,7 @@ button {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 53px;
   margin-bottom: 20px;
 }
 
@@ -61,7 +61,7 @@ h2 {
 }
 
 #captchaCanvas {
-  width: 60% !important;
+  width: 52% !important;
   /* 放大 */
   height: auto !important;
   /* 放大 */
@@ -72,8 +72,8 @@ h2 {
 /* 输入框改大，适配手机 */
 #verifyInput {
   width: 80%;
-  padding: 12px;
-  font-size: 21px;
+  padding: 24px;
+  font-size: 44px;
   border-radius: 10px;
   border: 2px solid #ccc;
   outline: none;
@@ -93,7 +93,7 @@ h2 {
   background-color: #0099ff;
   color: white;
   border: none;
-  font-size: 22px;
+  font-size: 52px;
   cursor: pointer;
 }
 
