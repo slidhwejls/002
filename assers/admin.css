@@ -11,11 +11,6 @@
 
 
 
-#captchaCanvas {
-  cursor: pointer;
-  border: 1px solid #bbb;
-  border-radius: 6px;
-}
 
 #verifyInput {
   padding: 6px 10px;
@@ -46,11 +41,9 @@ button {
 }
 
 @media screen and (max-width: 720px) {
-  .module.phone{
-  display: block !important;}
-#body1{display: none !important;}
-
-
+  .module.phone{ display: block !important;}
+  #body1{display: none !important;}
+ 
   }
 
 
@@ -67,12 +60,13 @@ h2 {
 }
 
 #captchaCanvas {
-  width: 60% !important;
-  /* 放大 */
-  height: auto !important;
-  /* 放大 */
+  width: 200px !important; 
+  height: 60px !important; 
   border: 2px solid #0099ff;
   border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  border-radius: 6px;
 }
 
 /* 输入框改大，适配手机 */
