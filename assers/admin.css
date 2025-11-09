@@ -34,10 +34,7 @@ button {
 .module {
   display: none !important;
 }
-
-.active {
-  display: block !important;
-}
+  
 
 .module.phone {
   width: 100%;
@@ -48,8 +45,17 @@ button {
   text-align: center;
 }
 
+@media screen and (max-width: 720px) {
+  .module.phone{
+  display: block !important;}
+#body1{display: none !important;}
+
+
+  }
+
+
 h2 {
-  font-size: 53px;
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
@@ -61,7 +67,7 @@ h2 {
 }
 
 #captchaCanvas {
-  width: 52% !important;
+  width: 60% !important;
   /* 放大 */
   height: auto !important;
   /* 放大 */
@@ -72,8 +78,8 @@ h2 {
 /* 输入框改大，适配手机 */
 #verifyInput {
   width: 80%;
-  padding: 24px;
-  font-size: 44px;
+  padding: 12px;
+  font-size: 21px;
   border-radius: 10px;
   border: 2px solid #ccc;
   outline: none;
@@ -93,7 +99,7 @@ h2 {
   background-color: #0099ff;
   color: white;
   border: none;
-  font-size: 52px;
+  font-size: 22px;
   cursor: pointer;
 }
 
